@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 20px 70px;
+}
+
+header {
+  font-family: Raleway;
+}
+
+header h1 span {
+  color: #39C260;
+}
+
+footer h1 span {
+  color: #39C260;
+}
+
+footer h1 {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  padding: 100px;
+  font-family: Raleway;
+  background-image: url("img/footer_bg.png");
+  background-size: cover;
+}
+
+header h1 {
+  font-family: Raleway;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .col:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+header .col a {
+  text-decoration: none;
+  color: black;
+}
+
+header .col button {
+  background-color: #2A6877;
+  border: none;
+  padding: 15px 25px;
+  color: #fff;
+  border-radius: 25px;
+}
+
+main {
+  font-family: Raleway;
+}
+
+main h1 {
+  font-size: 68px;
+  margin-bottom: 5px;
+}
+
+main p {
+  font-size: 18px;
+  text-wrap: balance;
+  margin-bottom: 35px;
+}
+
+main .Section-1 button {
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+.Section-1 {
+  margin-top: 30px;
+}
+
+.Section-2 {
+  text-align: center;
+  font-family: Raleway;
+  background: -webkit-gradient(linear, left top, right top, from(#C9E4DE), to(#fff));
+  background: linear-gradient(90deg, #C9E4DE, #fff);
+}
+
+.Section-2 .col {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  max-width: 350px;
+  /* max-height: 340px; */
+  padding: 30px;
+}
+
+.Section-2 .col p {
+  margin-top: 15px;
+  font-size: 18px;
+  text-wrap: balance;
+}
+
+.Section-2 .col h2 {
+  margin-top: 10px;
+}
+
+main .Section-2 button {
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+
+.ViewMore__btn {
+  background: #2A6877 !important;
+  color: #fff;
+  padding: 10px 55px !important;
+  margin-top: 50px;
+}
+
+.Section-2 .row {
+  margin-top: 50px;
+}
+
+.Section-3 h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Section-3 h2 {
+  margin-bottom: 25px;
+}
+
+.Section-3 .row .col {
+  width: 50%;
+}
+
+.Section-3 .row .col-img {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.Section-3 .row {
+  margin-top: 20px;
+}
+
+.Section-4 {
+  background: -webkit-gradient(linear, left top, right top, from(#def6e5), color-stop(#def6e5), to(#fff));
+  background: linear-gradient(90deg, #def6e5, #def6e5, #fff);
+  padding: 50px 0;
+}
+
+.Section-4 label {
+  display: block;
+}
+
+.Section-4 .col {
+  width: 50%;
+}
+
+.Section-4 .col-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+form input {
+  display: block;
+  width: 350px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: 1px solid;
+  margin: 5px 0 30px 0;
+  outline: none;
+}
+
+form button {
+  background: #2A6877;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin: 0 35%;
+}
+
+.Section-4 .col p {
+  width: 380px;
+  text-wrap: balance;
+  margin-top: 30px;
+}
+
+footer .col {
+  width: 50%;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .col:last-child h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  width: 80px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-wrap: nowrap;
+  border-bottom: 1px solid #fff;
+}
+
+footer .col:first-child {
+  max-width: 300px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+footer li {
+  margin-bottom: 15px;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+footer .row {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .col ul img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .Section-1 .col img {
+    display: none;
+  }
+  .Section-1 .col h1 {
+    font-size: 25px;
+  }
+  .Section-2 .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Section-2 .col {
+    margin-top: 10px;
+  }
+  .Section-2 h1 {
+    font-size: 34px;
+  }
+  .container {
+    padding: 10px 30px;
+  }
+  .head_links a {
+    display: none;
+  }
+  .Section-3 .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .text-right {
+    text-align: center;
+  }
+  .Section-3 img {
+    max-width: 200px;
+  }
+  .Section-3 h1 {
+    font-size: 34px;
+  }
+  .Section-2 .col-card {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .Section-3 .subtitle {
+    font-size: 12px;
+  }
+  .Section-4 h1 {
+    font-size: 34px;
+  }
+  .Section-4 .col-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .Section-4 input {
+    width: 100%;
+  }
+  .Section-4 img {
+    max-width: 300px;
+  }
+  .Section-4 .row {
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer {
+    padding: 50px 0;
+  }
+  footer .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .social {
+    margin-bottom: 20px;
+  }
+}

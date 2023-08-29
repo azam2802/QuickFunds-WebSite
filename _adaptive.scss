@@ -1,0 +1,89 @@
+
+@media screen and (max-width: 720px){
+	.Section-1 .col img{
+		display: none;
+	}
+
+	.Section-1 .col h1{
+		font-size: 25px;
+	}
+
+	.Section-2 .row{
+		flex-direction: column;
+	}
+
+	.Section-2 .col{
+		margin-top: 10px;
+	}
+
+	.Section-2 h1{
+		font-size: 34px;
+	}
+
+	.container{
+		padding: 10px 30px;
+	}
+
+
+	.head_links a{
+		display: none;
+	}
+
+	.Section-3 .row{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.text-right{
+		text-align: center;
+	}
+
+	.Section-3 img{
+		max-width: 200px;
+	}
+
+	.Section-3  h1{
+		font-size: 34px;
+	}
+
+	.Section-2 .col-card{
+		height: fit-content !important;
+	}
+
+	.Section-3  .subtitle{
+		font-size: 12px;
+	}
+
+	.Section-4 h1{
+		font-size: 34px;
+	}
+
+	.Section-4 .col-form{
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.Section-4 input{
+		width: 100%;
+	}
+
+
+	.Section-4 img{
+		max-width: 300px;
+	}
+
+	.Section-4 .row{
+		align-items: unset;
+		flex-direction: column;
+	}
+
+	footer {
+		padding: 50px 0;
+		.row{
+			flex-direction: column;
+		}
+		.social{
+			margin-bottom: 20px;
+		}
+	}
+}
